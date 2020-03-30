@@ -1,0 +1,5 @@
+#Acessar configurações do profile especifico
+arquivo: fornecedor
+curl -X GET http://localhost:8888/fornecedor/default
+arquivo: fornecedor-prod
+curl -X GET http://localhost:8888/fornecedor/prod
